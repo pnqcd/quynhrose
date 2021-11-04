@@ -73,8 +73,42 @@ header {
     top: 0;
 }
 .bars-btn {
-    color: black;
+    color: #161D2A;
     font-size: 30px;
+    cursor: pointer;
+}
+.times-btn {
+    color: #161D2A;
+    font-size: 30px;
+    position: absolute;
+    right: -400px;
+    cursor: pointer;
+}
+
+.menu-list {
+    position: fixed;
+    right: -100px;
+    top: 70px;
+    border-left: 2px solid #eee;
+    height: 100vh;
+    padding: 0;
+    background-color: white;
+    transition: 0.5s;
+}
+.menu-list li {
+    text-align: center;
+    padding: 20px 25px;
+    border-bottom: 1px solid #eee;
+}
+.menu-list i {
+    font-size: 18px;
+    color: #161D2A;
+}
+.menu-list li:hover {
+    background-color: #161D2A;
+}
+.menu-list li:hover i {
+    color: white;
 }
 
 #home {
